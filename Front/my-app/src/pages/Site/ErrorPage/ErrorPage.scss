@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i&display=swap'); 
+  body {  
+    font-family:var(--bs-font-sans-serif);
+    font-size:1rem;
+    font-weight:400;
+    line-height:1.5;
+    color:#212529;
+  }  
+* { 
+    box-sizing: border-box;
+} 
+
+* { 
+    -webkit-box-sizing: border-box; 
+    box-sizing: border-box; 
+    outline: none !important;
+} 
+
+body { 
+    margin: 0; 
+    font-family: var(--bs-font-sans-serif); 
+    font-size: 1rem; 
+    font-weight: 400; 
+    line-height: 1.5; 
+    color: #212529; 
+    background-color: #fff; 
+    -webkit-text-size-adjust: 100%; 
+    -webkit-tap-highlight-color: transparent;
+} 
+
+body { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+} 
+
+body { 
+    color: #777777; 
+    font-size: 18px; 
+    line-height: 32px; 
+    font-family: "Montserrat", sans-serif; 
+    font-weight: 500;
+} 
+
+html { 
+    height: 100%; 
+    margin: 0; 
+    padding: 0;
+} 
+
+:root { 
+    --bs-font-sans-serif: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans","Liberation Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"; 
+} 
+
+@media (prefers-reduced-motion: no-preference){ 
+  :root { 
+    scroll-behavior: smooth;
+  } 
+}     
+
+.ptb-100 { 
+    padding-top: 100px; 
+    padding-bottom: 100px;
+} 
+
+@media (max-width: 1700px){ 
+  .ptb-100 { 
+    padding-top: 80px; 
+    padding-bottom: 80px;
+  } 
+}     
+
+*,:after,:before { 
+    box-sizing: border-box;
+} 
+
+.container { 
+    width: 100%; 
+    padding-right: var(--bs-gutter-x,.75rem); 
+    padding-left: var(--bs-gutter-x,.75rem); 
+    margin-right: auto; 
+    margin-left: auto;
+} 
+
+@media (min-width: 576px){ 
+  .container { 
+    max-width: 540px;
+  } 
+}     
+
+@media (min-width: 768px){ 
+  .container { 
+    max-width: 720px;
+  } 
+}     
+
+@media (min-width: 992px){ 
+  .container { 
+    max-width: 960px;
+  } 
+}     
+
+@media (min-width: 1200px){ 
+  .container { 
+    max-width: 1140px;
+  } 
+}     
+
+@media (min-width: 1400px){ 
+  .container { 
+    max-width: 1320px;
+  } 
+}     
+
+.container { 
+    max-width: 1430px; 
+    padding-left: 15px; 
+    padding-right: 15px;
+} 
+
+@media (max-width: 1700px){ 
+  .container { 
+    max-width: 95%;
+  } 
+}     
+
+.animated { 
+    -webkit-animation-duration: 1s; 
+    animation-duration: 1s; 
+    -webkit-animation-fill-mode: both; 
+    animation-fill-mode: both;
+} 
+
+.fadeInUp { 
+    -webkit-animation-name: fadeInUp; 
+    animation-name: fadeInUp;
+} 
+
+.position-r { 
+    position: relative;
+} 
+
+.error-img { 
+    max-width: 742px; 
+    margin: auto;
+} 
+
+.text-center { 
+    text-align: center!important;
+} 
+
+.error-content { 
+    padding-top: 50px;
+} 
+
+img { 
+    vertical-align: middle;
+} 
+
+img { 
+    height: auto; 
+    max-width: 100%; 
+    border: none; 
+    outline: none;
+} 
+
+.error-img .error-top  { 
+    position: absolute; 
+    top: -75px; 
+    right: 20%; 
+    -webkit-animation-name: zoom-fade; 
+    animation-name: zoom-fade; 
+    -webkit-animation-duration: 8s; 
+    animation-duration: 8s; 
+    -webkit-animation-iteration-count: infinite; 
+    animation-iteration-count: infinite; 
+    -webkit-animation-timing-function: linear; 
+    animation-timing-function: linear;
+} 
+
+h1 { 
+    margin-top: 0; 
+    margin-bottom: .5rem; 
+    font-weight: 500; 
+    line-height: 1.2;
+} 
+
+h1 { 
+    font-size: calc(1.375rem + 1.5vw);
+} 
+
+@media (min-width: 1200px){ 
+  h1 { 
+    font-size: 2.5rem;
+  } 
+}     
+
+h1 { 
+    padding: 0; 
+    margin: 0; 
+    font-weight: 700; 
+    color: #111111;
+} 
+
+h1 { 
+    font-size: 64px; 
+    line-height: 74px;
+} 
+
+.error-content .error-title  { 
+    font-size: 50px; 
+    line-height: 60px; 
+    margin-bottom: 20px;
+} 
+
+p { 
+    margin-top: 0; 
+    margin-bottom: 1rem;
+} 
+
+p { 
+    margin-bottom: 15px;
+} 
+
+.error-content p  { 
+    font-size: 24px; 
+    line-height: 42px; 
+    margin-bottom: 30px;
+} 
+
+a { 
+    color: #0d6efd; 
+    text-decoration: underline;
+} 
+
+a { 
+    outline: none !important; 
+    text-decoration: none; 
+    -webkit-box-shadow: unset !important; 
+    box-shadow: unset !important; 
+    -webkit-transition: all 400ms ease; 
+    transition: all 400ms ease;
+} 
+
+a { 
+    cursor: pointer; 
+    text-decoration: none; 
+    color: #111111;
+} 
+
+.btn-ct { 
+    font-weight: 600; 
+    border: 2px solid #fbb200; 
+    border-radius: 50px; 
+    font-size: 20px; 
+    padding: 12px 30px; 
+    background: #fbb200; 
+    color: #ffffff; 
+    display: -webkit-inline-box; 
+    display: -ms-inline-flexbox; 
+    display: inline-flex; 
+    -webkit-box-align: center; 
+    -ms-flex-align: center; 
+    align-items: center; 
+    -webkit-box-pack: center; 
+    -ms-flex-pack: center; 
+    justify-content: center; 
+    text-transform: uppercase;
+} 
+
+a:hover { 
+    color: #0a58ca;
+} 
+
+a:hover { 
+    color: #f22e3e; 
+    text-decoration: none;
+} 
+
+.btn-ct:hover { 
+    color: #ffffff; 
+    background: #f22e3e; 
+    border-color: #f22e3e;
+} 
+
+
+@keyframes fadeInUp { 
+  0% {  
+      opacity: 0; 
+      -webkit-transform: translate3d(0, 100px, 0); 
+      transform: translate3d(0, 100px, 0); 
+      opacity: 0; 
+      transform: translate3d(0px, 100px, 0px); 
+  }  
+  100% {  
+      opacity: 1; 
+      -webkit-transform: none; 
+      transform: none; 
+      opacity: 1; 
+      transform: none; 
+  }  
+
+} 
+@keyframes zoom-fade { 
+  0% {  
+      -webkit-transform: scale(0.8); 
+      transform: scale(0.8); 
+      transform: scale(0.8); 
+  }  
+  50% {  
+      -webkit-transform: scale(1); 
+      transform: scale(1); 
+      transform: scale(1); 
+  }  
+  100% {  
+      -webkit-transform: scale(0.8); 
+      transform: scale(0.8); 
+      transform: scale(0.8); 
+  }  
+
+} 
+/* These were inline style tags. Uses id+class to override almost everything */
+#style-Axo4H.style-Axo4H {  
+   visibility: visible;  
+}  
+#style-7eyQN.style-7eyQN {  
+   visibility: visible;  
+}  
+
+.err{
+    padding-top: 13%;
+}

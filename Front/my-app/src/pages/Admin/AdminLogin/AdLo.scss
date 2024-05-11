@@ -1,0 +1,38 @@
+.logg {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin-top: 80px;
+    
+}
+
+.logg h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logg input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* Bu, padding'i genişlik ve yükseklik hesaplamasına dahil etmek için gereklidir */
+}
+
+.logg button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #ff9500;
+    color: #fff;
+    cursor: pointer;
+}
+
+.logg button:hover {
+    background-color: #b30000;
+}

@@ -1,0 +1,33 @@
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display: none; /* Öncelikle gizli olacak */
+  }
+  
+  .notification.show {
+    display: block; /* Göstermek için görünür hale getir */
+  }
+  
+  .close-btn {
+    float: right;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .close-btn:hover {
+    color: #f44336;
+  }
+  
+  .success-page{
+    padding-top: 120px;
+    padding-bottom: 120px;
+
+    background-image: linear-gradient(to right, #ffefc5,#fffcf5 );
+  }

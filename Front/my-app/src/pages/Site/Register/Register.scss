@@ -1,0 +1,102 @@
+.containerr {
+    max-width: 300px;
+    background-image: linear-gradient(to bottom, rgb(234, 169, 49),#fffcf5 );
+    border-radius: 15px;
+    overflow: hidden;
+  }
+  .login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-image: linear-gradient(to right, #fff7e3,#fffcf5 );
+  }
+  form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 32px 24px 24px;
+    gap: 16px;
+    text-align: center;
+  }
+  
+  form .head {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  form .head span {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+  }
+  
+  form .head p {
+    font-size: 1.1rem;
+    color: #ffffff;
+  }
+  
+  form .inputs {
+    overflow: hidden;
+   
+    width: 100%;
+    margin: 1rem 0.5rem;
+    border-radius: 8px;
+    
+    outline: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  form .inputs input {
+    border: none;
+    outline: none;
+    padding: 8px 15px;
+      /* علشان اقدر اخلي البلاس هولدر من اول الفورم بديله نفس الويدس */
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid orange;
+    font-weight: 200;
+  }
+  
+  form button {
+    // background-color: #ff7b00;
+    background-color: rgb(250, 180, 50);
+    color: white;
+    width: 100%;
+    height: 40px;
+    padding-top: 5px;
+    padding-bottom: 8px;
+    border: 0;
+    overflow: hidden;
+    border-radius: 25px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 1s ease-in-out;
+  }
+  
+  form button:hover {
+    background-color: rgb(255, 189, 66);
+  }
+  
+  .form-footer {
+    background-color: ühite;
+    padding: 16px;
+    font-size: 1rem;
+    text-align: center;
+  }
+  
+  .form-footer a {
+    font-weight: bolder;
+    color: #0066ff;
+    transition: all 3s ease-in-out;
+  }
+  
+  .form-footer a:hover {
+    color: rgb(255, 0, 0);
+  }
+  

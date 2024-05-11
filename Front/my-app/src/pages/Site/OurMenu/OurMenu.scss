@@ -1,0 +1,103 @@
+
+.card2{
+    display: flex;
+    justify-content: center;
+    
+    flex-wrap: wrap;
+    gap: 40px;
+    margin-top: 70px;
+    margin-bottom: 120px;
+    overflow: hidden;
+    .il{
+        margin-left: 26px;
+        width: 350px;
+        height: 350px;
+    }
+}
+
+
+.card2__tp{
+    display: flex;
+    // justify-content: space-around;
+    gap: 35%;
+    padding-left: 15px;
+    padding-top: 25px;
+    .p2{
+        color: #f22e3e;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .p1{
+        color: #111111;
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+}
+
+.card2__icon{
+    display: flex;
+    padding-left: 15px;
+    gap: 5px;
+    i{
+        font-size: 13px;
+    }
+}
+
+.card2__desc{
+    padding-left: 15px;
+    
+    padding-top: 15px;
+}
+
+.card2__card{
+    border: 1px solid lightgray;
+    border-radius: 40px;
+    width: 450px;
+    height: 640px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.card2 :hover .il{
+    transform: scale(1.15);
+    transition: 0.5s;
+}
+
+.card2__card .il{
+    transition: transform 0.4s ease-in-out;
+}
+
+.aspop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 120px;
+    button{
+    width: 130px;
+    height: 46px;
+    background-color:transparent;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+}
+button:hover{
+    background-color: #000000;
+    color: white;
+    border: none;
+}
+}
+
+.poas:hover {
+    background-color: orange;
+  }
+  
+
+  .aspop button:hover, .aspop button.active {
+    background-color: orange;
+    color: white;
+  }
+  
